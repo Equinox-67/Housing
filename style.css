@@ -1,0 +1,85 @@
+body {
+  margin: 0px 0px;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  /* color: white; */
+}
+
+.landing-page {
+  height: 700px;
+  width: 100%;
+  background-image: url(./landing.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.comp-nav {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid unset;
+  margin: 0px 140px 0px 20px;
+}
+
+.logo {
+  height: 50px;
+  padding-right: -40px;
+}
+
+.deco {
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px 1px #49584f;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  padding: 16px 0px;
+}
+
+.deco:hover {
+  transition-duration: 0.1s;
+  font-size: 17px;
+  color: rgb(196, 255, 248);
+}
+
+.nav {
+  display: flex;
+}
+
+.dec {
+  color: white;
+  text-shadow: 1.5px 1px 2px #49584f;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 16px 25px;
+}
+
+.dec:hover {
+  transition-duration: 0.1s;
+  font-size: 14px;
+  color: rgb(196, 255, 248);
+}
+
+
+
+.company-motto {
+  margin: 0px 500px 20px 30px;
+}
+
+.motto1 {
+  font-size: 75px;
+  color: #ffffff;
+  margin-bottom: -45px;
+  text-shadow: 1px 1px 1px #49584f;
+}
+.motto2 {
+  font-size: 75px;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #49584f;
+}
